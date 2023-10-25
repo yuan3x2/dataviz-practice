@@ -61,7 +61,7 @@ let animals_Taoyuan_Zoo = [
 ];
 */
 
-/* pie chart
+/* pie chart*/
 let evaluation_ratio_1 = [
     {
         "name" : "平時",
@@ -129,5 +129,4 @@ let evaluation_ratio_4 = [
         "count" : 50
     }
 ];
-*/
 

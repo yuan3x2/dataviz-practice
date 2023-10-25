@@ -303,7 +303,7 @@ Plotly.newPlot(myGraph, data, layout);
 
 */
 
-/* lesson 5
+/* lesson 5*/
 let myGraph = document.getElementById("myGraph");
 
 let trace1 = {};
@@ -390,4 +390,3 @@ let layout = {
 };
 
 Plotly.newPlot(myGraph, data, layout);
-*/
