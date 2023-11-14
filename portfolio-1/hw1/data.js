@@ -61,7 +61,7 @@ let animals_Taoyuan_Zoo = [
 ];
 */
 
-/* pie chart*/
+/* pie chart
 let evaluation_ratio_1 = [
     {
         "name" : "平時",
@@ -130,3 +130,13 @@ let evaluation_ratio_4 = [
     }
 ];
 
+*/
+
+/* lesson 7 */
+let set1 = [
+    1, 2, 2, 3, 3, 3, 4, 4, 5
+];
+
+let set2 = [
+    2, 3, 3, 4, 4, 4, 5, 5, 6
+];

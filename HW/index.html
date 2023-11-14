@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Web Fundamentals Workshop</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			.charts-container {
+				display: flex; /* 使用 flex 属性将容器内的元素水平排列 */
+			}
+			.chart-container {
+				width: 50%; /* 每个图表容器占用一半宽度 */
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#work2" class="icon solid fa-folder"><span>Line&Scatter</span></a>
+						<a href="#work3" class="icon solid fa-folder"><span>Bar</span></a>
+						<a href="#work4" class="icon solid fa-folder"><span>Pie</span></a>
+						<a href="#work5" class="icon solid fa-folder"><span>Reflection</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>111502504 邱郁安</h1>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"></span></span>
+									<img src="images/angrycat.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h1>Introduction</h1>
+								</header>
+								<p>
+									This assignment is mainly to explore the impact of the epidemic on tourism and the travel habits of people in Taiwan. 
+								</p>
+								<p>
+									Lots of mouse. ~(￣C・>
+								</p>
+								<section>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/yamouse.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/goodmouse.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/coolmouse.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/questionmouse.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/laughmouse.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/tiredmouse.jpg" alt=""></a>
+										</div>
+									</div>
+								</section>
+								
+							</article>
+
+						<!-- Line&Scatter -->
+							<article id="work2" class="panel">
+								<header>
+									<h1>Line&Scatter</h1>
+								</header>
+								<p>
+									<!--hw1-->
+									This line and scatter chart shows the number of the Taiwanese tourists and the number of the foreign tourists between 2012 to 2022.
+									<br><br>
+									We can notice that Taiwanese people is really like to travel around the world. About 1/2 to 3/4 of Taiwanese people go traveling each year until 2020.
+									<br><br>
+									Additionally, we can see that the number of the Taiwanese tourists and foreign tourists increaseed year after year before 2020.
+									In 2020 the number plummeted, and keeping going down in 2021 until 2022. Through this we can know that the epidemic serious impact the tourism in Taiwan. 
+								</p>
+								<div id="lineGraph"></div>
+								<link rel="stylesheet" href="chart1/linestyle.css">
+								
+							</article>
+
+						<!-- Bar -->
+							<article id="work3" class="panel">
+								<header>
+									<h2>Bar</h2>
+								</header>
+								<p>
+									<!--hw2-->
+									This bar chart statistics the travel destinations of Taiwanese tourists each year.
+									We can see that most of people choose to travel to Asia countries, followed by the American countries in order, and
+									 then European countries and Oceania and African countries.
+									 Additionally, we can see the number of tourists go down in 2022.
+									<br><br>
+									I guess the reason that make tourists like to travel to Asia more is "MONEY" and "FAMILY". 
+									First, if people want to travel to America or Europe, it cost really lots of money than Asia.
+									Second, lots of people who are living in Taiwan actually from various Asia countries. Most of their families are living in the country of residence. 
+
+								</p>
+								<div id="barGraph"></div>
+								<link rel="stylesheet" href="chart2/barstyle.css">
+
+								<p>
+									Chart2 is the stack mode of the Chart1.
+								</p>
+
+								<div id="bar2Graph"></div>
+								<link rel="stylesheet" href="chart2/bar2style.css">
+
+							</article>
+						<!-- Pie -->
+							<article id="work4" class="panel">
+								<header>
+									<h2>Pie</h2>
+								</header>
+								<p>
+									<!--hw3-->
+									These pie charts show the proportion of travel destinations of Taiwanese tourists of each country in each continent.
+									<br><br>
+									In first pie, we can see most of people like to go to Japan and Mainland China, and then is Hong Kong and Macao.
+									The reason people like to go to China I think is equal to what I said early that many people is from Mainland China, and language is also a important factor. 
+									The reson people like to go to Japan I think is that Taiwanese people are deeply influenced by Japanese culture, and the cost is low.
+									<br><br>
+									In other pies, it also have their own reason for these things to turn out this way. 
+									For example, many people prefer to go to the United States rather than Canada, perhaps because there are more Taiwanese working in the United States than in Canada, 
+									and then many people who travel in Europe will decide to travel to other European contries as well.
+
+								</p>
+								<div class="charts-container">
+									<div class="chart-container">
+										<div id="pieGraph"></div>
+										<link rel="stylesheet" href="chart3/piestyle.css">
+									</div>
+									<div class="chart-container">
+										<div id="pie2Graph"></div>
+										<link rel="stylesheet" href="chart3/pie2style.css">
+									</div>
+								</div>
+
+								<div class="charts-container">
+									<div class="chart-container">
+										<div id="pie3Graph"></div>
+										<link rel="stylesheet" href="chart3/pie3style.css">
+									</div>
+									<div class="chart-container">
+										<div id="pie4Graph"></div>
+										<link rel="stylesheet" href="chart3/pie4style.css">
+									</div>
+								</div>
+								
+								
+							</article>
+
+							<!-- Reflection -->
+							<article id="work5" class="panel">
+								<header>
+									<h2>Reflection</h2>
+								</header>
+								<p>
+									<!--reflection-->
+									Use these charts to help integrate and absorb information effectively and efficiently. 
+									Additionally, we can choose suitable type of chart to make the datas more clear.
+									I think it is a really essential ability to help us in the future, therefore I am really glad I can learn so much thing in this class. 
+								</p>	
+								<img src="images/happycat.jpg" alt="" />
+								
+							</article>
+						
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; 搖起來</li><li>Design: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">POKE</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+			<script src="//unpkg.com/d3"></script>
+      	  	<script src="chart1/line.js"></script>
+			<script src="chart2/bar.js"></script>
+			<script src="chart2/bar2.js"></script>
+			<script src="chart3/pie.js"></script>
+			<script src="chart3/pie2.js"></script>
+			<script src="chart3/pie3.js"></script>
+			<script src="chart3/pie4.js"></script>
+
+				
+	</body>
+</html>
